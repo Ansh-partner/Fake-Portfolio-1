@@ -435,31 +435,29 @@ ul {
 
 .about-me-header {
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 2.70rem;
     color: var(--header-cl);
     margin-bottom: 1rem;
-    text-align: center;
 }
 
 .about-me-para-box {
     display: flex;
     flex-direction: column;
     gap: 1.50rem;
-    text-align: center;
 }
 
 .para {
     font-size: 16px;
     font-weight: 500;
-    width: 40rem;
-    color: var(--header-cl);
+    width: 35rem;
+    color: var(--header-sec-cl);
 }
 
 .about-me-image-box {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 2rem;
+    gap: 5rem;
     margin-right: 13px;
 }
 
@@ -470,26 +468,28 @@ ul {
     gap: 1rem;
 }
 
-.rigtside-box {
+.all-images {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
     margin-top: 5rem;
 }
 
 .abby-standing {
-    width: 13rem;
+    width: 13.50rem;
     border-radius: 10px;
-    box-shadow: -1rem -1rem 0px 0px rgba(245, 92, 49, 1);
 }
 
 .collage-images {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    margin-top: 7rem;
+
 }
 
 .abby-sitting,
 .abby-working {
-    width: 14rem;
+    width: 13.50rem;
     border-radius: .50rem;
 }
 
@@ -655,7 +655,7 @@ ul {
 .contact-section {
     padding: 100px;
     padding-top: 150px;
-    padding-bottom: 50px;
+    padding-bottom: 200px;
 }
 
 .contact-header {
