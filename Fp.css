@@ -876,8 +876,6 @@ ul {
     right: 10px;
     bottom: 8px;
     z-index: 999;
-    background-color: white;
-    border-radius: 50%;
     cursor: pointer;
     transition: all linear 0.10s;
 }
@@ -887,10 +885,7 @@ ul {
     }
 
     .gotop-box #gotop-image-button {
-        width: 3rem;
-        padding-top: 2px;
-        padding-left: 2px;
-        padding-right: 2px;
+        width: 3.40rem;
     }
 
 #name {
