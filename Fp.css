@@ -28,6 +28,10 @@
     --header-sec-cl: #262221;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 /* HEADER START */
 
 ul {
@@ -43,32 +47,32 @@ ul {
 }
 
 .header .logo {
-    width: 3.80rem;
-    margin-left: var(--margin-six);
-    padding: var(--margin-fir) 0;
+    width: 6rem;
+    margin-left: 4em;
+    padding: 1em 0;
 }
 
 .img-ul,
 .colorful-img-ul {
     display: flex;
-    gap: var(--margin-thi);
-    margin-right: var(--margin-six);
+    gap: 3rem;
+    margin-right: 4em;
 }
 
 .fa-brands {
-    width: .80rem;
+    width: 1.3rem;
     cursor: pointer;
 }
 
 .nav-links {
     font-weight: 500;
     display: flex;
-    gap: 6rem;
-    margin-left: var(--margin-fiv);
+    gap: 10rem;
+    margin-left: 6em;
 }
 
 .nav-li {
-    font-size: 15px;
+    font-size: 1.6rem;
     cursor: pointer;
     transition: all linear .20s;
     text-decoration: none;
@@ -88,7 +92,7 @@ ul {
 /* HERO SECTION START */
 
 .main-section {
-    padding-bottom: 75px;
+    padding-bottom: 7.5rem;
 }
 
 .hero-section {
@@ -102,18 +106,20 @@ ul {
 .hero-name {
     font-weight: 300;
     color: var(--primary-cl);
-    margin-bottom: var(--margin-fir);
+    margin-bottom: .8rem;
+    font-size: 1.8rem;
 }
 
 .hero-job {
     color: var(--header-cl);
-    font-size: 2rem;
+    font-size: 3.3rem;
 }
 
 .hero-intro {
     font-weight: 500;
-    width: 45rem;
-    margin-top: var(--margin-sec);
+    font-size: 2.2rem;
+    width: 55%;
+    margin-top: 1rem;
     color:var(--text-cl);
     text-align: center;
 }
@@ -121,7 +127,7 @@ ul {
 .email {
     font-weight: 300;
     color: var(--secondary-cl);
-    font-size: 13px;
+    font-size: 1.3rem;
     cursor: pointer;
 }
 
@@ -132,18 +138,17 @@ ul {
 }
 
 .num {
-    font-size: 13px;
+    font-size: 1.3rem;
     color: var(--text-cl);
 }
 
-.button-with-de,
-.client-but {
+.button-with-de {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 12rem;
-    margin-left: 2rem;
-    gap: 4rem;
+    margin-top: 21rem;
+    margin-left: 4;
+    gap: 12rem;
 }
 
 .slide-bu {
@@ -168,7 +173,7 @@ ul {
 /* CLIENT SECTION START */
 
 .client-section {
-    padding: 100px;
+    padding: 10em;
 }
 
 .client-section-container {
@@ -193,31 +198,32 @@ ul {
 }
 
 .image {
-    width: 7rem;
+    width: 12rem;
 }
 
 .amazon {
-    margin-bottom: -4rem;
+    margin-bottom: -7.50rem;
 }
 
 .github {
-    width: 4rem;
-    margin-bottom: -3.50rem;
+    width: 7.50rem;
+    margin-bottom: -7em;
+    margin-left: 1rem;
 }
 
 .microsoft {
-    width: 4rem;
+    width: 7.50rem;
 }
 
 .adobe {
-    width: 7rem;
-    margin-top: -1.30rem;
+    width: 12rem;
+    margin-top: -2.20em;
 }
 
 .client-header {
     font-weight: 500;
     color: var(--header-cl);
-    font-size: 2.50rem;
+    font-size: 4rem;
 }
 
 .client-but {
