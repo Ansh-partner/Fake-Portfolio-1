@@ -238,24 +238,24 @@ ul {
 
 
 .portfolio-section {
-    padding: 100px;
+    padding: 10em;
     padding-right: 0;
     padding-left: 0;
 }
 
 .portfolio-first-section {
-    padding-left: 100px;
-    padding-bottom: 100px;
+    padding-left: 10em;
+    padding-bottom: 10em;
 }
 
 .portfolio-second-section {
-    padding: 100px;
+    padding: 10em;
     padding-left: 0;
     padding-top: 0;
 }
 
 .portfolio-third-section {
-    padding: 100px;
+    padding: 10em;
     padding-top: 0;
     padding-right: 0;
 
@@ -263,14 +263,14 @@ ul {
 
 .portfolio-header {
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 5.10rem;
     color: var(--header-cl);
 }
 
 .portfolio-discription {
-    width: 50rem;
+    width: 80rem;
     font-weight: 300;
-    font-size: 1.50rem;
+    font-size: 2.40rem;
     margin-top: 16px;
     margin-bottom: 4rem;
     color: var(--header-sec-cl);
@@ -278,14 +278,13 @@ ul {
 .portfolio-image-two,
 .portfolio-image-third {
     background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-    margin-left: 25rem;
-    margin-top: 24px;
+    margin-left: 25em;
+    margin-top: 2.4em;
     display: flex;
     justify-content: center;
-    height: 18rem;
+
 }
 
 .portfolio-image-two {
@@ -301,7 +300,7 @@ ul {
 
 
 .portfolio-image-two {
-    width: 52rem;
+    width: 70rem;
     margin-right: 0;
 }
 
@@ -309,30 +308,30 @@ ul {
     background-color: #8BC6EC;
     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
     margin-left: 0;
-    width: 52rem;
+    width: 70rem;
 }
 
 .insta-pic,
 .images {
     position: relative;
     top: 1.30rem;
-    height: 20rem;
+    height: 30rem;
 }
 
 .insta-pic {
+    height: 30rem;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
 
-
-
 .sec-image {
     right: 2rem;
+    top: 5rem;
 }
 
 .login-image {
     top: 3rem;
-    height: 18rem;
+    height: 28rem;
 }
 
 /* PORTFOLIO SECTION END */
@@ -343,8 +342,8 @@ ul {
 .testnomail-section {
     display: flex;
     justify-content: center;
-    gap: 32px;
-    padding: 100px;
+    gap: 3.2em;
+    padding: 10em;
 }
 
 .testnomail-box {
@@ -352,29 +351,29 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 20rem;
+    width: 30rem;
     border-radius: 16px;
     box-shadow: 0px 3px 15px 3px rgba(0, 0, 0, .20);
 }
 
 .first-testnomail {
-    margin-right: 4rem;
-    margin-bottom: 4rem;
+    margin-right: 12em;
+    margin-bottom: 4em;
 }
 
 .second-testnomail {
-    margin-top: 1rem;
-    margin-right: 7rem;
+    margin-top: 1em;
+    margin-left: 5em;
 }
 
 .third-testnomial {
-    margin-left: 4rem;
-    margin-bottom: 4rem;
+    margin-left: 12em;
+    margin-bottom: 4em;
 }
 
 .ppl {
-    width: 48px;
-    height: 48px;
+    width: 4.8rem;
+    height: 4.8rem;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -389,26 +388,26 @@ ul {
 .testnomail-name,
 .testnomail-job {
     margin: 0;
-    margin-top: 6px;
+    margin-top: .6em;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #6C757D;
 }
 
 .testnomail-job {
     color: #F55C31;
-    margin-bottom: 8px;
+    margin-bottom: .8em;
 }
 
 .testnomail-review {
-    width: 18rem;
+    width: 26rem;
     text-align: center;
     margin: 0;
-    margin-top: 16px;
+    margin-top: 1em;
     color: #6C757D;
     font-weight: 600;
-    font-size: 13px;
-    padding-bottom: 14px;
+    font-size: 1.3rem;
+    padding-bottom: 1.4em;
 }
 
 .project-testnomail {
