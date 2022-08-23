@@ -156,8 +156,8 @@ ul {
     font-weight: 500;
     background: var(--background-gra);
     color: white;
-    padding: 8px 16px;
-    border-radius: 10px;
+    padding: .7em 1.4em;
+    border-radius: 20px;
     cursor: pointer;
     transition: all linear .25s;
 }
@@ -584,20 +584,20 @@ ul {
 
 .design-image-one {
     display: grid;
-    grid-template-columns: 2rem 2rem 2rem;
+    grid-template-columns: 3rem 3rem 3rem;
 }
 
     .design-image-one .grid-second-row {
         display: flex;
         gap: 1.40rem;
         align-items: center;
-        margin-left: 1.20rem;
+        margin-left: 2.6em;
         padding-bottom: 1rem;
     }
 
 .design-image-two {
     display: grid;
-    grid-template-columns: 2rem 2rem 2rem;
+    grid-template-columns: 3rem 3rem 3rem;
 }
 
 .adobe-xd,
@@ -606,8 +606,8 @@ ul {
 }
 
 .homebrew {
-    margin-left: 3rem;
-    padding-bottom: 1rem;
+    margin-left: 5em;
+    padding-bottom: 1.5em;
 }
 
 .adobe-illu {
@@ -616,6 +616,8 @@ ul {
 
 .VSCode {
     width: 4.2rem;
+    margin-left: -.80em;
+    padding-top: .10em;
 }
 
 
@@ -655,15 +657,16 @@ ul {
 /* CONTACT SECTION START */
 
 .contact-section {
-    padding: 100px;
-    padding-top: 150px;
-    padding-bottom: 200px;
+    padding: 10em;
+    padding-top: 15em;
+    padding-bottom: 20em;
 }
 
 .contact-header {
     color: var(--header-sec-cl);
-    font-size: 35px;
-    width: 50rem;
+    font-size: 3.5rem;
+    width: 75%;
+    line-height: 5rem;
 }
 
 .header-span {
@@ -673,19 +676,20 @@ ul {
 .contact-subtitle-secbox {
     display: flex;
     flex-direction: column;
-    margin-top: 10rem;
-    width: 40rem;
+    margin-top: 15em;
+    width: 59%;
 }
 
 .subtitle-line {
-    font-size: 32px;
+    font-size: 3.2rem;
     font-weight: 600;
     color: var(--header-sec-cl);
 }
 
 .contact-seaction-email,
 .contact-seaction-num {
-    font-size: 15px;
+    font-size: 1.5rem;
+    cursor: default;
 }
 
 .contact-seaction-num {
@@ -700,33 +704,29 @@ ul {
 .faq-header {
     display: flex;
     justify-content: center;
-    font-size: 24px;
+    font-size: 2.4rem;
     color: var(--header-sec-cl);
-    margin-top: 10rem;
+    margin-top: 7em;
 }
 
-.question-answer,
-.faq  {
+.question-answer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     gap: 2rem;
-    margin-top: 6rem;
-    margin-right: 3rem;
+    margin-top: 8em;
+    margin-right: 3em;
 }
 
 .faq {
+    display: flex;
     flex-direction: column;
     justify-content: normal;
     gap: 1.20rem;
     margin-top: 0;
     margin-right: 0;
     text-align: center;
-    font-size: 16px;
+    font-size: 1.6rem;
     color: var(--header-sec-cl);
-}
-
-.faq-one {
-    margin-right: -2rem;
 }
 
 .question {
@@ -734,15 +734,15 @@ ul {
 }
 
 .answer {
-    width: 24rem;
-    font-size: 15px;
+    width: 40rem;
+    font-size: 1.5rem;
 }
 
 .question-answer-second-row {
     display: flex;
-    gap: 2rem;
+    gap: 5rem;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 7em;
 }
 
 /* CONTACT SECTION END */
@@ -751,21 +751,21 @@ ul {
 /* CONTACT FORM SECTION START */
 
 .contact-form-section {
-    padding: 100px;
+    padding: 10em;
     padding-top: 0;
 }
 
 .contact-form-header {
     color: var(--header-sec-cl);
-    font-size: 28px;
-    width: 40rem;
+    font-size: 2.9rem;
+    width: 60%;
 }
 
 .name-email-box {
     display: flex;
     justify-content: center;
-    gap: 8rem;
-    margin-top: 4rem;
+    gap: 12rem;
+    margin-top: 4em;
 }
 
 .name-box,
@@ -774,11 +774,11 @@ ul {
 .mini-box {
     display: flex;
     flex-direction: column;
-    gap: .50rem;
+    gap: 1rem;
 }
 
 .budget-timeline-box {
-    gap: 8rem;
+    gap: 12rem;
 }
 
 .project-de-mainbox,
@@ -786,19 +786,19 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 4em;
 }
 
 
 .form-headers {
     color: var(--header-cl);
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .input-el {
-    padding: 2px 18px;
-    padding-left: 8px;
-    font-size: 14px;
+    padding: .2em 1.8em;
+    padding-left: .8em;
+    font-size: 1.4rem;
     border: 2px solid var(--text-cl);
     border-radius: 8px;
     -webkit-transition: 0.5s;
@@ -813,15 +813,15 @@ ul {
 
 .project-textarea {
     resize: none;
-    height: 12rem;
+    height: 20rem;
     line-height: 1.6;
-    padding: 6px 10px;
+    padding: .6em 1em;
 }
 
 .form-sumbit-box {
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 4em;
 }
 
 /* CONTACT FORM SECTION END */
@@ -871,6 +871,7 @@ ul {
     width: 1.20rem;
     cursor: pointer;
 }
+
 /* FOOTER SECTION END */
 
 .gotop-box {
