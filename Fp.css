@@ -118,10 +118,14 @@ ul {
 .hero-intro {
     font-weight: 500;
     font-size: 2.2rem;
-    width: 55%;
+    width: 54%;
     margin-top: 1rem;
     color:var(--text-cl);
     text-align: center;
+}
+
+.hero-intro-highlight {
+    color: var(--secondary-cl);
 }
 
 .email {
@@ -280,7 +284,7 @@ ul {
     background-color: #4158D0;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-    margin-left: 25em;
+
     margin-top: 2.4em;
     display: flex;
     justify-content: center;
@@ -308,7 +312,7 @@ ul {
 .portfolio-image-third {
     background-color: #8BC6EC;
     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
-    margin-left: 0;
+
     width: 80rem;
 }
 
@@ -765,7 +769,7 @@ ul {
     display: flex;
     justify-content: center;
     gap: 12rem;
-    margin-top: 4em;
+    margin-top: 6em;
 }
 
 .name-box,
@@ -895,4 +899,12 @@ ul {
 
 #name {
     border: none;
+}
+
+@media screen and (max-width: 1190px) {
+    
+    html {
+        font-size: 57.05%;
+    }
+
 }
