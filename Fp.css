@@ -916,7 +916,15 @@ ul {
 @media screen and (max-width: 898px) {
 
     html {
-        font-size: 48.05%;
+        font-size: 44.05%;
+    }
+
+}
+
+@media screen and (max-width: 814px) {
+
+    html {
+        font-size: 39.05%;
     }
 
 }
