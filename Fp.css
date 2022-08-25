@@ -242,27 +242,21 @@ ul {
 
 
 .portfolio-section {
-    padding: 10em;
-    padding-right: 0;
-    padding-left: 0;
+    padding: 10em 0;
 }
 
 .portfolio-first-section {
     padding-left: 10em;
-    padding-bottom: 10em;
+    padding-bottom: 8em;
 }
 
 .portfolio-second-section {
-    padding: 10em;
-    padding-left: 0;
-    padding-top: 0;
+    padding-bottom: 10em;
 }
 
 .portfolio-third-section {
-    padding: 10em;
     padding-top: 0;
     padding-right: 0;
-
 }
 
 .portfolio-header {
@@ -279,12 +273,16 @@ ul {
     margin-bottom: 4rem;
     color: var(--header-sec-cl);
 }
+
+.insta-testnomail {
+    padding-bottom: 10em;
+}
+
 .portfolio-image-two,
 .portfolio-image-third {
     background-color: #4158D0;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-
     margin-top: 2.4em;
     display: flex;
     justify-content: center;
@@ -294,26 +292,20 @@ ul {
 .portfolio-image-two {
     background-color: #FBAB7E;
     background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
-    margin-left: 0;
-    margin-right: 25rem;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     height: 26rem;
-}
-
-
-.portfolio-image-two {
-    width: 80rem;
+    width: 70rem;
     margin-right: 0;
 }
+
 
 .portfolio-image-third {
     background-color: #8BC6EC;
     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
-
-    width: 80rem;
+    width: 78rem;
 }
 
 .images {
@@ -322,9 +314,8 @@ ul {
     height: 32rem;
 }
 
-
 .insta-pic {
-    height: 30rem;
+    height: 32rem;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
@@ -356,19 +347,14 @@ ul {
     box-shadow: 0px 3px 15px 3px rgba(0, 0, 0, .20);
 }
 
-.first-testnomail {
-    margin-right: 12em;
-    margin-bottom: 4em;
-}
-
-.second-testnomail {
-    margin-top: 1em;
-    margin-left: 5em;
-}
-
+.first-testnomail,
+.second-testnomail,
 .third-testnomial {
-    margin-left: 12em;
-    margin-bottom: 4em;
+    margin: 0 auto;
+}
+
+.first-testnomail {
+    margin-bottom: 6em; 
 }
 
 .ppl {
@@ -505,7 +491,7 @@ ul {
 
 .service-section {
     padding: 10em;
-    padding-top: 7em;
+    padding-top: 13em;
 }
 
 .title-disc-box,
@@ -541,7 +527,6 @@ ul {
 
 .advantage-section {
     padding: 10em;
-    padding-top: 5em;
 }
 
 .advantage-header {
@@ -697,7 +682,7 @@ ul {
 }
 
 .contact-seaction-num {
-    margin-left: 85.50%;
+    margin-left: auto;
 }
 
 .contact-subtitle-mainbox {
@@ -716,7 +701,7 @@ ul {
 .question-answer {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 6rem;
     margin-top: 8em;
     margin-right: 3em;
 }
@@ -738,7 +723,7 @@ ul {
 }
 
 .answer {
-    width: 40rem;
+    max-width: 40rem;
     font-size: 1.5rem;
 }
 
@@ -901,10 +886,37 @@ ul {
     border: none;
 }
 
-@media screen and (max-width: 1190px) {
+@media screen and (max-width: 1284px) {
     
     html {
         font-size: 57.05%;
+    }
+
+    .portfolio-image-third {
+        width: 70rem;
+    }
+
+    .second-testnomail {
+        margin: 0 auto;
+    }
+    
+    .contact-subtitle-secbox {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1029px) {
+
+    html {
+        font-size: 50.05%;
+    }
+
+}
+
+@media screen and (max-width: 898px) {
+
+    html {
+        font-size: 48.05%;
     }
 
 }
