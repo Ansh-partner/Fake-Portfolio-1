@@ -92,7 +92,7 @@ ul {
 /* HERO SECTION START */
 
 .main-section {
-    padding-bottom: 7.5rem;
+    padding-bottom: 10em;
 }
 
 .hero-section {
@@ -106,7 +106,7 @@ ul {
 .hero-name {
     font-weight: 300;
     color: var(--primary-cl);
-    margin-bottom: .8rem;
+    margin-bottom: .5em;
     font-size: 1.8rem;
 }
 
@@ -119,7 +119,7 @@ ul {
     font-weight: 500;
     font-size: 2.2rem;
     width: 54%;
-    margin-top: 1rem;
+    margin-top: .7em;
     color:var(--text-cl);
     text-align: center;
 }
@@ -151,7 +151,6 @@ ul {
     justify-content: center;
     align-items: center;
     margin-top: 21rem;
-    margin-left: 4;
     gap: 12rem;
 }
 
@@ -911,20 +910,37 @@ ul {
         font-size: 50.05%;
     }
 
+    .button-with-de {
+        margin-top: 27em;
+    }
+
 }
 
 @media screen and (max-width: 898px) {
 
     html {
-        font-size: 44.05%;
+        font-size: 45.05%;
+    }
+
+    .button-with-de {
+        margin-top: 26em;
+    }
+
+    .hero-section {
+        margin-top: 18em;
+    }
+
+    .client-section {
+        padding: 12em;
+    }
+
+    .design-box-two {
+        width: 29%;
     }
 
 }
 
-@media screen and (max-width: 814px) {
-
-    html {
-        font-size: 39.05%;
-    }
-
+@media screen and (max-width: 818px) {
+    
 }
+
