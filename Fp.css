@@ -886,10 +886,10 @@ ul {
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 360px) {
     
     html {
-        font-size: 42.05%;
+        font-size: 32.05%;
     }
 
 }
