@@ -885,62 +885,11 @@ ul {
     border: none;
 }
 
-@media screen and (max-width: 1284px) {
+
+@media only screen and (max-width: 700px) {
     
     html {
-        font-size: 57.05%;
-    }
-
-    .portfolio-image-third {
-        width: 70rem;
-    }
-
-    .second-testnomail {
-        margin: 0 auto;
-    }
-    
-    .contact-subtitle-secbox {
-        width: auto;
-    }
-}
-
-@media screen and (max-width: 1029px) {
-
-    html {
-        font-size: 50.05%;
-    }
-
-    .button-with-de {
-        margin-top: 27em;
+        font-size: 52.05%;
     }
 
 }
-
-@media screen and (max-width: 898px) {
-
-    html {
-        font-size: 45.05%;
-    }
-
-    .button-with-de {
-        margin-top: 26em;
-    }
-
-    .hero-section {
-        margin-top: 18em;
-    }
-
-    .client-section {
-        padding: 12em;
-    }
-
-    .design-box-two {
-        width: 29%;
-    }
-
-}
-
-@media screen and (max-width: 818px) {
-    
-}
-
