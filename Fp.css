@@ -886,4 +886,10 @@ ul {
 }
 
 
+@media only screen and (max-width: 360px) {
+    
+    html {
+        font-size: 32.05%;
+    }
+
 }
