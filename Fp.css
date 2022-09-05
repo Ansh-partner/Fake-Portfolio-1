@@ -893,10 +893,11 @@ ul {
 
     .nav-links {
         display: flex;
-        flex-direction: column;
         margin: 0;
-        margin-top: 1.80em;
-        gap: 2em;
+        margin-top: 2em;
+        margin-left: .50em;
+        gap: 4em;
+        font-size: 1.50rem;
         align-items: center;
     }
 
@@ -906,12 +907,14 @@ ul {
 
     .header .logo {
         margin: 0;
+        width: 7rem;
         margin-top: 1.50em;
     }
 
     .img-ul {
         margin: 0;
         margin-top: 5em;
+        margin-bottom: 2.50em;
         gap: 3.50em;
     }
 
