@@ -982,13 +982,16 @@ ul {
     }
 
     .client-section {
-        padding-left: 0;
-        padding-right: 0;
+        padding: 0;
     }
 
     .company-img {
         margin-left: 1em;
         margin-right: 1em;
+    }
+
+    .main-section {
+        padding-bottom: 8em;
     }
 
 }
