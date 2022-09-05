@@ -919,7 +919,7 @@ ul {
     }
 
     .hero-section {
-        margin-top: 9%;
+        margin-top: 26%;
     }
 
     .hero-job {
@@ -937,7 +937,10 @@ ul {
         margin: 0 .80em;
         margin-top: .8em;
         width: auto;
-        
+    }
+
+    .button-with-de {
+        margin-top: 23rem;
     }
 
 }
