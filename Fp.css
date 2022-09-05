@@ -915,9 +915,9 @@ ul {
     }
 
     .hero-intro {
-        margin: 0 .80em;
+        margin: .80em .80em;
         margin-top: .8em;
-        width: 100%;
+        width: 90%;
     }
 
     .button-with-de {
