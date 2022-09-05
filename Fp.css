@@ -926,6 +926,7 @@ ul {
         font-size: 3rem;
         max-width: 50rem;
         text-align: center; 
+        margin: 0 .80em;
     }
 
     .hero-name {
@@ -933,8 +934,10 @@ ul {
     }
 
     .hero-intro {
+        margin: 0 .80em;
         margin-top: .8em;
-        width: 78%;
+        width: auto;
+        
     }
 
 }
