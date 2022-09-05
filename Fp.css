@@ -931,7 +931,8 @@ ul {
     }
 
     .button-with-de {
-        margin-top: 10em;
+        margin-top: 2em;
+        gap: 4em;
     }
 
     .image {
