@@ -905,12 +905,16 @@ ul {
     }
     /* HEADER SECTION */
 
+
     /* HERO SECTION */
 
+    .main-section {
+        padding: 2em 4em;
+    }
+
     .hero-section {
-        align-items: flex-start;
+        display: block;
         margin-top: 8%;
-        margin-left: 4em;
     }
 
     .hero-intro {
@@ -925,9 +929,9 @@ ul {
 
     .button-with-de {
         display: flex;
+        justify-content: flex-end;
         align-items: center;
         margin-top: 2em;
-        margin-left: 18.50em;
         gap: 1.50em;
     }
 
@@ -992,10 +996,6 @@ ul {
     .company-img {
         margin-left: 1em;
         margin-right: 1em;
-    }
-
-    .main-section {
-        padding-bottom: 8em;
     }
 
 }
