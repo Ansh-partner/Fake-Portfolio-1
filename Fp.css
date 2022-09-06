@@ -886,6 +886,7 @@ ul {
         font-size: 52.5%;
     }
 
+    /* HEADER SECTION */
     .nav-links {
         display: none;
     }
@@ -902,28 +903,40 @@ ul {
     .img-ul {
         display: none;
     }
+    /* HEADER SECTION */
 
-    .hero-job {
-        font-size: 3rem;
-        max-width: 50rem;
-        text-align: center; 
-        margin: 0 .80em;
-    }
+    /* HERO SECTION */
 
-    .hero-name {
-        margin-bottom: .8em;
+    .hero-section {
+        align-items: flex-start;
+        margin-top: 8%;
+        margin-left: 4em;
     }
 
     .hero-intro {
-        margin: .80em .80em;
-        margin-top: .8em;
         width: 90%;
+        margin-top: .4em;
+        text-align: left;
+    }
+
+    .hero-name {
+        margin-bottom: .2em;
     }
 
     .button-with-de {
+        display: flex;
+        align-items: center;
         margin-top: 2em;
-        gap: 4em;
+        margin-left: 18.50em;
+        gap: 1.50em;
     }
+
+    .email,
+    .num {
+        font-size: 1.10rem;
+    }
+
+    /* HERO SECTION */
 
     .image {
         width: 8rem;
